@@ -1,20 +1,15 @@
 h { 
     font-family: 'Roboto', sans-serif;
-    }
-h:hover {
-    color: #feda6a;
-    cursor: pointer;
-    text-decoration: line-through;
-    }
-h1 { 
-    font-family: 'Roboto', sans-serif;
     background-color: transparent;
     color: #000000;
-    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: 2px;
+    }
+h:hover {
+    color: #feda6a;
+    cursor: pointer;
     }
 /* MODAL */
 /* about link */
@@ -36,7 +31,6 @@ h1 {
 .about:hover {
     color: #feda6a;
     cursor: pointer;
-    text-decoration: line-through;
 }
 .modal {
     display: none; /* hidden */
@@ -71,14 +65,14 @@ p {
 }
   /* close button */
 .close {
-    color: #000000;
+    color: #fff952;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 .close:hover,
 .close:focus {
-    color: #fff952;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
 }
